@@ -7913,7 +7913,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u_pass"
 			(at 180.34 252.476 0)
 			(effects
 				(font
@@ -8094,7 +8094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "C_Vin"
 			(at 92.456 91.186 0)
 			(effects
 				(font
@@ -8103,7 +8103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H_HandSolder"
 			(at 105.1052 92.71 0)
 			(effects
 				(font
@@ -8370,7 +8370,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u_pass"
 			(at 160.02 267.716 0)
 			(effects
 				(font
@@ -9732,7 +9732,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u_pass"
 			(at 160.02 328.676 0)
 			(effects
 				(font
@@ -10007,7 +10007,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u_pass"
 			(at 299.72 335.2799 0)
 			(effects
 				(font
@@ -10754,7 +10754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u_pass"
 			(at 415.544 325.12 0)
 			(effects
 				(font
@@ -11045,7 +11045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u_pass"
 			(at 501.65 278.1299 0)
 			(effects
 				(font
@@ -11769,7 +11769,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2fc0139-8f6a-4949-907b-a2a8442f6c5d")
 		(property "Reference" "C8"
-			(at 179.07 186.6899 0)
+			(at 177.8 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,8 +11777,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 179.07 189.2299 0)
+		(property "Value" "0.1u_pass"
+			(at 177.8 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12047,7 +12047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u_pass"
 			(at 309.88 335.2799 0)
 			(effects
 				(font
@@ -13045,7 +13045,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u_pass"
 			(at 180.34 314.706 0)
 			(effects
 				(font
