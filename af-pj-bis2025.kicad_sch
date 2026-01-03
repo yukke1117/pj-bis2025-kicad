@@ -10753,7 +10753,7 @@
 		)
 		(uuid "0d33ee08-a205-4f24-afb7-85c3cf62c848")
 	)
-	(label "AIN2N"
+	(label "AIN2_inN"
 		(at 226.06 314.96 0)
 		(effects
 			(font
@@ -10873,7 +10873,7 @@
 		)
 		(uuid "2f565b8d-b762-4edd-8ed8-3230b0416a9d")
 	)
-	(label "AIN2N"
+	(label "AIN2_adcN"
 		(at 314.96 321.31 0)
 		(effects
 			(font
@@ -10903,7 +10903,7 @@
 		)
 		(uuid "3c0da9bb-5213-47fe-8534-db8ab12cb48f")
 	)
-	(label "AIN2P"
+	(label "AIN2_inP"
 		(at 226.06 325.12 0)
 		(effects
 			(font
@@ -10963,7 +10963,7 @@
 		)
 		(uuid "4dc30fbc-0afa-41eb-b76f-e60cea4eba6f")
 	)
-	(label "OUT2"
+	(label "OUT1"
 		(at 229.87 176.53 0)
 		(effects
 			(font
@@ -10973,7 +10973,7 @@
 		)
 		(uuid "50765ab1-9979-4d23-be9d-e7e32b7f58c1")
 	)
-	(label "AIN1N_in-"
+	(label "AIN1N"
 		(at 226.06 254 0)
 		(effects
 			(font
@@ -10993,7 +10993,7 @@
 		)
 		(uuid "51d6a94d-2e9e-4541-9505-75537357aaa7")
 	)
-	(label "AIN1P_in+"
+	(label "AIN1P"
 		(at 226.06 264.16 0)
 		(effects
 			(font
@@ -11003,7 +11003,7 @@
 		)
 		(uuid "52f8244d-d418-483c-ba73-0842323d7241")
 	)
-	(label "AIN1N_in"
+	(label "AIN2_inN"
 		(at 262.89 308.61 0)
 		(effects
 			(font
@@ -11033,7 +11033,7 @@
 		)
 		(uuid "55799e1f-3ee5-450c-9cac-5a878a2e3b56")
 	)
-	(label "AIN1N_adc"
+	(label "AIN1N"
 		(at 314.96 316.23 0)
 		(effects
 			(font
@@ -11063,7 +11063,7 @@
 		)
 		(uuid "5ad2d0db-4c9f-4e62-863d-566210c31894")
 	)
-	(label "AIN1N_mcu"
+	(label "AIN2_mcuN"
 		(at 262.89 306.07 0)
 		(effects
 			(font
@@ -11073,7 +11073,7 @@
 		)
 		(uuid "5d4e99d5-0e40-492b-beaa-5afe66b41205")
 	)
-	(label "AIN1P_adc"
+	(label "AIN1P"
 		(at 314.96 313.69 0)
 		(effects
 			(font
@@ -11123,7 +11123,7 @@
 		)
 		(uuid "6cbab99d-4391-4512-9a57-79ea8a40b4c4")
 	)
-	(label "AIN1P_mcu"
+	(label "AIN2_mcuP"
 		(at 262.89 318.77 0)
 		(effects
 			(font
@@ -11173,7 +11173,7 @@
 		)
 		(uuid "72e1cfcb-aee5-4105-9cc5-8933a19bbfd0")
 	)
-	(label "GATE1"
+	(label "GATE2"
 		(at 101.6 137.16 0)
 		(effects
 			(font
@@ -11273,7 +11273,7 @@
 		)
 		(uuid "92a490c8-100c-4b02-80d4-5b9efb36ea61")
 	)
-	(label "AIN1P_in"
+	(label "AIN2_inP"
 		(at 262.89 316.23 0)
 		(effects
 			(font
@@ -11343,7 +11343,7 @@
 		)
 		(uuid "aac83c32-6772-48ea-8743-c4ada606f2ec")
 	)
-	(label "AIN1N_adc"
+	(label "AIN2_adcN"
 		(at 262.89 311.15 0)
 		(effects
 			(font
@@ -11353,7 +11353,7 @@
 		)
 		(uuid "ab533396-84c8-40b2-844c-a4c9efd1a095")
 	)
-	(label "AIN2P"
+	(label "AIN2_adcP"
 		(at 314.96 318.77 0)
 		(effects
 			(font
@@ -11463,7 +11463,7 @@
 		)
 		(uuid "ce26204d-462d-46d5-940e-25affaca26b5")
 	)
-	(label "GATE2"
+	(label "GATE1"
 		(at 173.99 137.16 0)
 		(effects
 			(font
@@ -11473,7 +11473,7 @@
 		)
 		(uuid "cee782dd-e1bd-409a-acb8-5bad84ec794e")
 	)
-	(label "AIN1P_adc"
+	(label "AIN2_adcP"
 		(at 262.89 313.69 0)
 		(effects
 			(font
@@ -11643,7 +11643,7 @@
 		)
 		(uuid "f83ae167-4792-4a58-8c00-391120b81878")
 	)
-	(label "OUT1"
+	(label "OUT2"
 		(at 57.15 173.99 180)
 		(effects
 			(font
