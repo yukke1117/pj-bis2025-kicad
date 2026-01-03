@@ -8449,6 +8449,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 102.87) (xy 316.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34141216-5719-4339-9f93-366fb600f676")
+	)
+	(wire
+		(pts
 			(xy 212.09 317.5) (xy 212.09 314.96)
 		)
 		(stroke
@@ -8526,6 +8536,16 @@
 			(type default)
 		)
 		(uuid "3b4ae794-8402-4df9-90c4-495b7d37d515")
+	)
+	(wire
+		(pts
+			(xy 308.61 148.59) (xy 316.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b89e245-0042-4f0b-80d4-36ce9238d8ca")
 	)
 	(wire
 		(pts
@@ -8896,6 +8916,16 @@
 			(type default)
 		)
 		(uuid "53b3023b-f2ac-4e61-bd22-e089964411d3")
+	)
+	(wire
+		(pts
+			(xy 328.93 153.67) (xy 337.82 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542af419-7b5a-47fb-927c-6addddec0532")
 	)
 	(wire
 		(pts
@@ -9979,6 +10009,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 102.87) (xy 336.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973d366d-2cdb-4a58-ae7b-291a38784a13")
+	)
+	(wire
+		(pts
 			(xy 146.05 254) (xy 148.59 254)
 		)
 		(stroke
@@ -10586,6 +10626,16 @@
 			(type default)
 		)
 		(uuid "c22f3eda-eb80-4118-977b-113f4dc1c18b")
+	)
+	(wire
+		(pts
+			(xy 308.61 153.67) (xy 316.23 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a28406-741d-43e9-bc05-790b77b77fee")
 	)
 	(wire
 		(pts
@@ -11237,7 +11287,7 @@
 		)
 		(uuid "032787a3-e017-4009-88ba-f7d7e24b7b77")
 	)
-	(label "SCLK"
+	(label "ADC_SCLK"
 		(at 299.72 306.07 0)
 		(effects
 			(font
@@ -11387,7 +11437,7 @@
 		)
 		(uuid "2e0e3b02-2f99-4fc9-843e-52a15c8dcc54")
 	)
-	(label "DIN"
+	(label "ADC_MOSI"
 		(at 299.72 311.15 0)
 		(effects
 			(font
@@ -11467,7 +11517,7 @@
 		)
 		(uuid "3da754a2-9542-44c5-8175-29c89fe68759")
 	)
-	(label "DOUT"
+	(label "ADC_MISO"
 		(at 421.64 308.61 0)
 		(effects
 			(font
@@ -11596,6 +11646,16 @@
 			(justify left bottom)
 		)
 		(uuid "55a36ea0-ef2a-4f3c-b68e-1627ca26845d")
+	)
+	(label "ADC_DRDY"
+		(at 337.82 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59154308-a7a3-4422-90c1-4221f8f79124")
 	)
 	(label "AVSS"
 		(at 179.07 316.23 0)
@@ -11817,7 +11877,7 @@
 		)
 		(uuid "877f0236-87e9-4ffc-9456-b55e67a5f372")
 	)
-	(label "LCD_SCK"
+	(label "LCD_SCLK"
 		(at 368.3 129.54 0)
 		(effects
 			(font
@@ -11917,7 +11977,7 @@
 		)
 		(uuid "9faa4354-e474-4543-bb96-9e25494e28c1")
 	)
-	(label "LCD_SCK"
+	(label "LCD_SCLK"
 		(at 308.61 135.89 0)
 		(effects
 			(font
@@ -11927,7 +11987,7 @@
 		)
 		(uuid "a3420796-73c1-49a3-94cc-e44731de24c6")
 	)
-	(label "CS*"
+	(label "ADC_CS"
 		(at 299.72 300.99 0)
 		(effects
 			(font
@@ -12067,6 +12127,16 @@
 		)
 		(uuid "c8055825-00c2-4c3e-bde1-8e6b8682da06")
 	)
+	(label "ADC_SCLK"
+		(at 308.61 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb3b9978-918d-48a3-823e-dadbb7bb70bd")
+	)
 	(label "AVSS"
 		(at 173.99 332.74 0)
 		(effects
@@ -12107,6 +12177,16 @@
 		)
 		(uuid "d1bc830d-de99-43a7-9f91-e58bed737071")
 	)
+	(label "ADC_MOSI"
+		(at 336.55 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4a5d0b4-7c53-4ae6-9879-8041075bd752")
+	)
 	(label "VREF_0.5V"
 		(at 490.22 273.05 0)
 		(effects
@@ -12126,6 +12206,16 @@
 			(justify left bottom)
 		)
 		(uuid "de94f6bc-db05-4e26-95fa-2ff5fee291d8")
+	)
+	(label "ADC_MISO"
+		(at 307.34 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deaa7802-1ddc-4cd1-b717-f29c017e99e7")
 	)
 	(label "AVSS"
 		(at 113.03 269.24 0)
@@ -12187,7 +12277,7 @@
 		)
 		(uuid "e2d8b27d-2e80-4328-bd6c-e38b5ccef47e")
 	)
-	(label "DRDY"
+	(label "ADC_DRDY"
 		(at 421.64 311.15 0)
 		(effects
 			(font
@@ -12226,6 +12316,16 @@
 			(justify left bottom)
 		)
 		(uuid "e8676f47-6e6b-47ad-b40d-13a9e8e4184c")
+	)
+	(label "ADC_CS"
+		(at 308.61 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebd605fb-4a88-499c-991f-99f9c21b8583")
 	)
 	(label "AVSS"
 		(at 414.02 330.2 0)
@@ -14571,7 +14671,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "44be69ae-bf07-4e0a-8141-11552c3b0d9b")
 		(property "Reference" "#PWR0105"
 			(at 345.44 153.67 0)
@@ -14583,7 +14682,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 345.44 152.4 0)
+			(at 347.218 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
