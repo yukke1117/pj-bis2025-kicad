@@ -43,13 +43,14 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
+      "zones",
       "drc_warnings",
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_82002027",
+    "visible_layers": "ffffffff_ffffffff_aaaaaaaa_a8aaaaaa",
     "zone_display_mode": 0
   },
   "git": {
@@ -96,7 +97,7 @@
       10,
       10,
       10,
-      0
+      10
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
