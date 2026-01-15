@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|162000000|75737501|26bb3b72-ef94-4c2a-95ef-929db894fc01|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|192999998|105587499|7d2823a9-df7b-4b82-8416-97e16990434a|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -148,7 +139,7 @@
         "min_track_width": 0.25,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -594,7 +585,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Library/CloudStorage/OneDrive-ScienceTokyo/Documents/bioinosense/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "af-pj-bis2025.glb",
