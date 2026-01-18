@@ -21490,7 +21490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UJ_6_ADI"
+		(property "Footprint" "pj-bis2025:ADR130BUJZ_REEL7"
 			(at 110.49 106.68 0)
 			(effects
 				(font
