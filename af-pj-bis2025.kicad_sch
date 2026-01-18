@@ -8697,6 +8697,12 @@
 		(uuid "75b9a4ff-791b-4f53-8e53-3eb1160c6661")
 	)
 	(junction
+		(at 177.8 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7823f0a4-407d-4ff1-ac64-099d103ff382")
+	)
+	(junction
 		(at 361.95 353.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10972,7 +10978,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 111.76) (xy 180.34 111.76)
+			(xy 172.72 111.76) (xy 177.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11059,6 +11065,16 @@
 			(type default)
 		)
 		(uuid "62a99010-1b82-4c7f-98e7-9fcc1f1751e1")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 180.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6355421a-6714-444a-bb1a-861009645cb3")
 	)
 	(wire
 		(pts
@@ -18583,6 +18599,73 @@
 			(project "af-pj-bis2025"
 				(path "/0c43c024-04be-42a3-97bf-885833c3aea8"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 177.8 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd18216-8425-44e8-89b4-14994197ace5")
+		(property "Reference" "TP17"
+			(at 180.34 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 180.34 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 182.88 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f40c5c64-ea23-41dd-bd2d-33a8c68dfb86")
+		)
+		(instances
+			(project "af-pj-bis2025"
+				(path "/0c43c024-04be-42a3-97bf-885833c3aea8"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
