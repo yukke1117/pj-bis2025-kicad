@@ -1,4 +1,4 @@
-26795842612135692
+26801168981002878
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106379,6 +106379,13 @@ ALD114904APAL
 8
 8
 pj-bis2025
+HIROSE_FH28-10S-0.5SH_05_
+
+
+0
+12
+12
+pj-bis2025
 LDO_5V_out_TAJR105K016RNJAC_TAJR_AVX
 
 TAJR105K016RNJ 
@@ -106400,12 +106407,26 @@ MIC5237-5.0YU
 4
 4
 pj-bis2025
+MIC5237_5_0YT
+
+MIC5237-5.0YT 
+0
+3
+3
+pj-bis2025
 OPA2380-DGK8-M
 
 OPA2380AIDGKR 
 0
 8
 8
+pj-bis2025
+PTS_647_SN50_SMTR2_LFS_PTS 647 SN50 SMTR2 LFS-M
+
+PTS 647 SN50 SMTR2 LFS 
+0
+4
+4
 pj-bis2025
 REF5050-D8-M
 
