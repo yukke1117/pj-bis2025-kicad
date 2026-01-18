@@ -8385,6 +8385,12 @@
 		(uuid "0023e6cf-2ff1-4c55-900c-b42e394f7aca")
 	)
 	(junction
+		(at 198.12 339.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "057b12ad-84aa-4126-9bd4-4c5a915737ab")
+	)
+	(junction
 		(at 113.03 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8563,6 +8569,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "441e9f9d-7fdc-4128-bedc-707564736bb7")
+	)
+	(junction
+		(at 198.12 328.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "450249ad-587b-4c5e-b28b-77333ae3363f")
 	)
 	(junction
 		(at 41.91 196.85)
@@ -9660,7 +9672,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 339.09) (xy 199.39 339.09)
+			(xy 189.23 339.09) (xy 198.12 339.09)
 		)
 		(stroke
 			(width 0)
@@ -11210,6 +11222,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 339.09) (xy 199.39 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f23ca46-ff5c-4523-a086-e72ea373d3d7")
+	)
+	(wire
+		(pts
 			(xy 107.95 309.88) (xy 107.95 328.93)
 		)
 		(stroke
@@ -12340,7 +12362,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 328.93) (xy 199.39 328.93)
+			(xy 189.23 328.93) (xy 198.12 328.93)
 		)
 		(stroke
 			(width 0)
@@ -12907,6 +12929,16 @@
 			(type default)
 		)
 		(uuid "d1a2e9c6-4944-4810-b90a-92a7308d7de8")
+	)
+	(wire
+		(pts
+			(xy 198.12 328.93) (xy 199.39 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d205f69f-c00a-4cb8-a97f-37862f810f4a")
 	)
 	(wire
 		(pts
@@ -13608,7 +13640,7 @@
 		)
 		(uuid "31525a14-737f-4f92-b00b-64fcebbeb9fa")
 	)
-	(label "AIN2N"
+	(label "AIN1N"
 		(at 370.84 345.44 0)
 		(effects
 			(font
@@ -13798,7 +13830,7 @@
 		)
 		(uuid "55799e1f-3ee5-450c-9cac-5a878a2e3b56")
 	)
-	(label "AIN1N"
+	(label "AIN2N"
 		(at 370.84 340.36 0)
 		(effects
 			(font
@@ -13858,7 +13890,7 @@
 		)
 		(uuid "5b988dc8-5858-443f-9110-524fa276aad3")
 	)
-	(label "AIN1P"
+	(label "AIN2P"
 		(at 370.84 337.82 0)
 		(effects
 			(font
@@ -14168,7 +14200,7 @@
 		)
 		(uuid "aac83c32-6772-48ea-8743-c4ada606f2ec")
 	)
-	(label "AIN2P"
+	(label "AIN1P"
 		(at 370.84 342.9 0)
 		(effects
 			(font
@@ -14815,7 +14847,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1u"
 			(at 118.872 77.216 0)
 			(effects
 				(font
@@ -15478,8 +15510,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Vin"
-			(at 98.552 80.772 0)
+		(property "Value" "22u"
+			(at 111.506 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18225,6 +18257,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 198.12 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69a53fdf-1738-41b4-baa3-f7ccd4896f04")
+		(property "Reference" "TP15"
+			(at 200.66 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 200.66 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 203.2 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1c14f4f-f7fa-4406-bcfb-bda5167333b7")
+		)
+		(instances
+			(project "af-pj-bis2025"
+				(path "/0c43c024-04be-42a3-97bf-885833c3aea8"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 195.58 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20103,6 +20202,73 @@
 			(project "af-pj-bis2025"
 				(path "/0c43c024-04be-42a3-97bf-885833c3aea8"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d12abea-a285-4265-9dff-a67769e16907")
+		(property "Reference" "TP16"
+			(at 200.66 334.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 200.66 337.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 203.2 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b71c501f-f0c3-45e1-950d-a523b846c4d5")
+		)
+		(instances
+			(project "af-pj-bis2025"
+				(path "/0c43c024-04be-42a3-97bf-885833c3aea8"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
